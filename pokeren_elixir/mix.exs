@@ -15,6 +15,7 @@ defmodule PokerenElixir.MixProject do
   def application do
     [
       extra_applications: [:logger]
+      # mod: {PokerenElixir, []}
     ]
   end
 
